@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FrameActivity">
+
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/background"
+        android:onClick="onMethodThing"
+        android:contentDescription="TODO" />
+
+    <include
+        layout="@layout/toolbar_main"
+        android:id="@+id/toolbar"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/activity2MainHeading"
+        android:textSize="50sp"
+        android:textColor="#FFFFFF"
+        android:shadowColor="#000000"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="5"/>
+
+    <ToggleButton
+        android:id="@+id/toggleButton5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onStateChange"
+        android:layout_marginTop="50dp"
+        android:textOn="On"
+        android:textOff="Off" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="430dp"
+        android:layout_gravity="top"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="80dp"
+        android:orientation="vertical">
+
+
+        <Switch
+            android:id="@+id/switch1"
+            android:layout_width="115dp"
+            android:layout_height="65dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:text="Switch"
+            tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="60dp"
+        android:orientation="vertical">
+
+
+
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="@string/login" />
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/register"
+            android:backgroundTint="@color/black" />
+
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:textAlignment="center"
+            android:entries="@array/values"
+            android:layout_width="match_parent"
+            android:layout_height="48dp" />
+
+    </LinearLayout>
+
+
+
+
+
+
+</FrameLayout>

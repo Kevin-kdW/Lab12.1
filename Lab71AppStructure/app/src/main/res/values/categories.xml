@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="product_categories">
+        <item>Cakes</item>
+        <item>Pastries</item>
+        <item>Breads</item>
+        <item>Pies</item>
+        <item>Donuts and Bagels</item>
+        <item>Cupcakes and Cookies</item>
+        <item>Muffins and Éclairs</item>
+    </string-array>
+</resources>

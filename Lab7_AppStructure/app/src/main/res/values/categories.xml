@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="product_categories">
+        <item>Main poke dishes</item>
+        <item>Intro dishes (not done)</item>
+        <item>Desserts (not done)</item>
+        <item>Extra (not done)</item>
+    </string-array>
+
+
+</resources>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Kevin Android CV</string>
+    <string name="my_name">Kevin Young</string>
+    <string name="my_title">BIT student</string>
+    <string name="my_bit_year">Third year</string>
+    <string name="change_image">Change image</string>
+    <string name="main_screen">Main screen</string>
+    <string name="second_screen">Second Screen</string>
+    <string name="changeToVid">change to video</string>
+</resources>

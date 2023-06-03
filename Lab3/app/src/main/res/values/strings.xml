@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Intents</string>
+    <string name="button">Click me</string>
+    <string name="placeHolder">Hello</string>
+    <string name="editText">Name</string>
+    <string name="button2">With always</string>
+    <string name="button3">Not always</string>
+</resources>

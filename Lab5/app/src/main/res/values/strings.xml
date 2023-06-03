@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Lab6</string>
+    <string name="institution_name">Kevin's app LUL</string>
+    <string name="send">Send</string>
+    <string name="message">Message</string>
+    <string name="to">To</string>
+    <string name="register">Register</string>
+    <string name="login">Login</string>
+    <string name="forgot_password">Forgot Password</string>
+</resources>

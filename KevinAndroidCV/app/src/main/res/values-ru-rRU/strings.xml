@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="my_name">биографические данные Кевина Андроида</string>
+    <string name="my_title">БИТ студент</string>
+    <string name="my_bit_year">третий год</string>
+</resources>
